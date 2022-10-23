@@ -1,0 +1,12 @@
+[
+    {
+        "instance": "banana",
+        "mapped_instance": [
+            "බනෑන",
+            []
+        ],
+        "intent": "none",
+        "nlu_file": "none",
+        "method": "ipa"
+    }
+]

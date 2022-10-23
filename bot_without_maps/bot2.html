@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="static/styles/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="static/styles/styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="static/images/favicon.png" />
+  <title>SEETM Experimental Setup | Bot 2</title>
+  <!-- widget component -->
+  <link href="static/styles/kolloqewidget.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container px-4 py-5" id="featured-3">
+    <a href="#">
+      <h2 class="pb-2 border-bottom seetm-page-title">
+        SEETM Experiment | Bot 2
+      </h2>
+    </a>
+
+    <a href="../bot_with_maps/bot1.html"><button type="button" class="btn btn-dark">Go to Bot 1</button></a>
+    <div class="row g-4 py-5">
+      <div class="col col-3">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+          <img id="seetm" src="static/images/y.png" alt="SEETM Logo" width="150px" />
+        </div>
+        <p>
+          SEETM handles out of vocabulary words in Rasa chatbot
+          projects 🤖
+        </p>
+      </div>
+
+      <div class="col col-9 ps-4">
+        <h3 class="fs-2">Follow the instructions below.</h3>
+        <p class="info-box">
+          This bot is
+          <kbd class="kbdg">90%</kbd> accurate. Ask the same questions you asked from the 1st
+          bot and note down both questions and bot response.
+        </p>
+        <p class="text-danger">
+          Note that this experiment consists of two bots and this is the 2nd
+          bot that you're going to test.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="z-index: -1">
+    <div class="mx-auto">
+      <p class="text-center font-monospace pt-3">© 2022 SEETM</p>
+    </div>
+  </div>
+
+  <!-- widget -->
+  <div id="kolloqeChatWidget"></div>
+  <script defer="defer" src="static/scripts/kolloqewidget.js"></script>
+  <script>
+    (window.kolloqe_webchat_id = "kolloqeChatWidget"),
+      (window.kolloqeProps = {
+        kolloqeChatWidget: {
+          position: "right",
+          positionProps: { xAxis: "10px", yAxis: "10px" },
+          title: "Bot 2",
+          defaultLang: "si",
+          avatar: !0,
+          avatarType: "text",
+          avatarLink: "",
+          socketURL: "http://localhost:5002",
+          initPayload: "/greet",
+          reconnectTimeout: 5e3,
+          widgetOptions: !0,
+          fullscreenButton: !1,
+          langSwitch: !0,
+          moreOptions: !0,
+          widgetOptionsPosition: "bottom",
+          hideWhenNotConnected: !0,
+          displayUnreadCount: !1,
+          showMessageDate: !1,
+          customMessageDelay: null,
+          persistSession: !0,
+          triggerIntents: !0,
+          enableURLs: !0,
+          disablePreviousQuickReplies: !0,
+          indicatorDelay: 0,
+          indicatorType: "scaling",
+          params: null,
+          enableShortcuts: !1,
+          shortcutKey: 81,
+        },
+      });
+  </script>
+  <script src="static/scripts/jquery361.js" type="text/javascript"></script>
+  <script src="static/scripts/seetm.js" type="text/javascript"></script>
+  <script src="static/scripts/bootstrap.min.js" type="text/javascript"></script>
+  <script src="static/scripts/bootstrap.bundle.min.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+[
+    {
+        "instance": "water",
+        "mapped_instance": [
+            "වව්ටර්",
+            []
+        ],
+        "intent": "none",
+        "nlu_file": "none",
+        "method": "ipa"
+    }
+]

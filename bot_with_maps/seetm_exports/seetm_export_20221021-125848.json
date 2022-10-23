@@ -1,0 +1,9 @@
+[
+    {
+        "instance": "banana",
+        "mapped_instance": "banana",
+        "intent": "none",
+        "nlu_file": "none",
+        "method": "rule-based"
+    }
+]

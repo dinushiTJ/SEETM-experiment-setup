@@ -1,0 +1,9 @@
+source_instance: වයිවා කියන්නේ මොකද්ද
+mapped_instance: viva කියන්නේ මොකද්ද
+
+source_instance: VIVA
+mapped_instance: viva
+
+source_instance: dean's list කියන්නේ මොකද්ද?
+mapped_instance: Deanslist කියන්නේ මොකද්ද?
+
